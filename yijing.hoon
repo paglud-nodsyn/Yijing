@@ -17,10 +17,10 @@
         [~[1 1 1] [%heaven %qian]]
         [~[0 1 1] [%lake %dui]]
         [~[1 0 1] [%fire %li]]
-        [~[0 0 1] [%thunder %zhen]]
-        [~[1 1 0] [%wind %xun]]
+        [~[1 0 0] [%thunder %zhen]]
+        [~[0 1 1] [%wind %xun]]
         [~[0 1 0] [%water %kan]]
-        [~[1 0 0] [%mountain %gen]]
+        [~[0 0 1] [%mountain %gen]]
         [~[0 0 0] [%earth %kun]]
     ==
     (~(got by (malt trilist)) key)
@@ -59,7 +59,7 @@
                 l5="A yellow lower garment brings supreme good fortune."
                 l6="Dragons fight in the meadow. Their blood is black and yellow."
             ==
-        :-  ~[0 1 0 0 0 1]
+        :-  ~[1 0 0 0 1 0]
             :*
                 num=3
                 hc="䷂"
@@ -74,7 +74,7 @@
                 l5="Difficulties in blessing. A little perseverance brings good fortune. Great perseverance brings misfortune."
                 l6="Horse and wagon part. Bloody tears flow."
             ==
-        :-  ~[1 0 0 0 1 0]
+        :-  ~[0 1 0 0 0 1]
             :*
                 num=4
                 hc="䷃"
@@ -89,7 +89,7 @@
                 l5="Childlike folly brings good fortune."
                 l6="In punishing folly it doesn't further one to commit transgressions. The only thing that furthers is to prevent transgressions."
             ==
-        :-  ~[0 1 0 1 1 1]
+        :-  ~[1 1 1 0 1 0]
             :*
                 num=5
                 hc="䷄"
@@ -104,7 +104,7 @@
                 l5="Waiting at meat and drink. Perseverance brings good fortune."
                 l6="One falls into the pit. Three uninvited guests arrive. Honor them, and in the end there will be good fortune."
             ==
-        :-  ~[1 1 1 0 1 0]
+        :-  ~[0 1 0 1 1 1]
             :*
                 num=6
                 hc="䷅"
@@ -119,7 +119,7 @@
                 l5="To contend before him brings supreme good fortune."
                 l6="Even if by chance a leather belt is bestowed on one, by the end of a morning it will have been snatched away three times."
             ==
-        :-  ~[0 0 0 0 1 0]
+        :-  ~[0 1 0 0 0 0]
             :*
                 num=7
                 hc="䷆"
@@ -134,7 +134,7 @@
                 l5="There's game in the field. It furthers one to catch it. Without blame. Let the eldest lead the army. The younger transports corpses; Then perseverance brings misfortune."
                 l6="The great prince issues commands, founds states, vests families with fiefs. Inferior people shouldn't be employed."
             ==
-        :-  ~[0 1 0 0 0 0]
+        :-  ~[0 0 0 0 1 0]
             :*
                 num=8
                 hc="䷇"
@@ -149,7 +149,7 @@
                 l5="Manifestation of holding together. In the hunt the king uses beaters on three sides only and forgoes game that runs off in front. The citizens need no warning. Good fortune."
                 l6="He finds no head for holding together. Misfortune."
             ==
-        :-  ~[1 1 0 1 1 1]
+        :-  ~[1 1 1 0 1 1]
             :*
                 num=9
                 hc="䷈"
@@ -164,7 +164,7 @@
                 l5="If you're sincere and loyally attached, you are rich in your neighbor."
                 l6="The rain comes, there's rest. This is due to the lasting effect of character. Perseverance brings the woman into danger. The moon is nearly full. If the superior man persists, misfortune comes."
             ==
-        :-  ~[1 1 1 0 1 1]
+        :-  ~[1 1 0 1 1 1]
             :*
                 num=10
                 hc="䷉"
@@ -179,7 +179,7 @@
                 l5="Resolute conduct. Perseverance with awareness of danger."
                 l6="Look to your conduct and weigh the favorable signs. When everything is fulfilled, supreme good fortune comes."
             ==
-        :-  ~[0 0 0 1 1 1]
+        :-  ~[1 1 1 0 0 0]
             :*
                 num=11
                 hc="䷊"
@@ -194,7 +194,7 @@
                 l5="The sovereign I gives his daughter in marriage. And supreme good fortune."
                 l6="The wall falls back into the moat. Use no army now. Make your commands known within your own town. Perseverance brings humiliation."
             ==
-        :-  ~[1 1 1 0 0 0]
+        :-  ~[0 0 0 1 1 1]
             :*
                 num=12
                 hc="䷋"
@@ -209,7 +209,7 @@
                 l5="Standstill is giving way. Good fortune for the great man. What if it should fail, what if it should fail? In this way he ties it to a cluster of mulberry shoots."
                 l6="The standstill comes to an end. First standstill, then good fortune."
             ==
-        :-  ~[1 1 1 1 0 1]
+        :-  ~[1 0 1 1 1 1]
             :*
                 num=13
                 hc="䷌"
@@ -224,7 +224,7 @@
                 l5="Men bound in fellowship first weep and lament, but afterward they laugh. After great struggles they succeed in meeting."
                 l6="Fellowship with men in the meadow. No remorse."
             ==
-        :-  ~[1 0 1 1 1 1]
+        :-  ~[1 1 1 1 0 1]
             :*
                 num=14
                 hc="䷍"
@@ -239,7 +239,7 @@
                 l5="He whose truth is accessible, yet dignified, has good fortune."
                 l6="He's blessed by heaven. Good fortune. Nothing that doesn't further."
             ==
-        :-  ~[0 0 0 1 0 0]
+        :-  ~[0 0 1 0 0 0]
             :*
                 num=15
                 hc="䷎"
@@ -254,7 +254,7 @@
                 l5="No boasting of wealth before one's neighbor. It's favorable to attack with force. Nothing that wouldn't further."
                 l6="Modesty that comes to expression. It's favorable to set armies marching to chastise one's own city and one's country."
             ==
-        :-  ~[0 0 1 0 0 0]
+        :-  ~[0 0 0 1 0 0]
             :*
                 num=16
                 hc="䷏"
@@ -269,7 +269,7 @@
                 l5="Persistently ill, and still doesn't die."
                 l6="Deluded enthusiasm. But if after completion one changes, there's no blame."
             ==
-        :-  ~[0 1 1 0 0 1]
+        :-  ~[1 0 0 1 1 0]
             :*
                 num=17
                 hc="䷐"
@@ -284,7 +284,7 @@
                 l5="Sincere in the good. Good fortune."
                 l6="He meets with firm allegiance and is still further bound. The king introduces him to the Western Mountain."
             ==
-        :-  ~[1 0 0 1 1 0]
+        :-  ~[0 1 1 0 0 1]
             :*
                 num=18
                 hc="䷑"
@@ -299,7 +299,7 @@
                 l5="Setting right what has been spoiled by the father. One meets with praise."
                 l6="He doesn't serve kings and princes, sets himself higher goals."
             ==
-        :-  ~[0 0 0 0 1 1]
+        :-  ~[1 1 0 0 0 0]
             :*
                 num=19
                 hc="䷒"
@@ -314,7 +314,7 @@
                 l5="Wise approach. This is right for a great prince. Good fortune."
                 l6="Great hearted approach. Good-hearted approach. Good fortune. No blame."
             ==
-        :-  ~[1 1 0 0 0 0]
+        :-  ~[0 0 0 0 1 1]
             :*
                 num=20
                 hc="䷓"
@@ -329,7 +329,7 @@
                 l5="Contemplation of my life. The superior man is without blame."
                 l6="Contemplation of his life. The superior man is without blame."
             ==
-        :-  ~[1 0 1 0 0 1]
+        :-  ~[1 0 0 1 0 1]
             :*
                 num=21
                 hc="䷔"
@@ -344,7 +344,7 @@
                 l5="The influence shows itself in the back of the neck. No remorse."
                 l6="The influence shows itself in the jaws, cheeks, and tongue."
             ==
-        :-  ~[1 0 0 1 0 1]
+        :-  ~[1 0 1 0 0 1]
             :*
                 num=22
                 hc="䷕"
@@ -359,7 +359,7 @@
                 l5="Grace in the hills and gardens. The roll of silk is meager and small. Humiliation, but in the end good fortune."
                 l6="Simple grace. No blame."
             ==
-        :-  ~[1 0 0 0 0 0]
+        :-  ~[0 0 0 0 0 1]
             :*
                 num=23
                 hc="䷖"
@@ -374,7 +374,7 @@
                 l5="A shoal of fishes. Favor comes through the court ladies. Everything acts to further."
                 l6="There's a large fruit still uneaten. The superior man receives a carriage. The house of the inferior man is split apart."
             ==
-        :-  ~[0 0 0 0 0 1]
+        :-  ~[1 0 0 0 0 0]
             :*
                 num=24
                 hc="䷗"
@@ -389,7 +389,7 @@
                 l5="Noble-hearted return. No remorse."
                 l6="Missing the return. Misfortune. Misfortune from within and without. If armies are set marching in this way, one will in the end suffer a great defeat, disastrous for the ruler of the country. For ten years it won't be possible to attack again."
             ==
-        :-  ~[1 1 1 0 0 1]
+        :-  ~[1 0 0 1 1 1]
             :*
                 num=25
                 hc="䷘"
@@ -404,7 +404,7 @@
                 l5="Use no medicine in an illness Incurred through no fault of your own. It will pass of itself. An unexpected evil may come accidentally from without. If it doesn't originate in one's own nature or have a foothold there, one shouldn't resort to external means to eradicate it, but should quietly let nature take its course. Then improvement will come of itself."
                 l6="Innocent action brings misfortune. Nothing furthers. When, in a given situation, the time isn't ripe for further progress, the best thing to do is to wait quietly, without ulterior designs. If one acts thoughtlessly and tries to push ahead in opposition to fate, success won't be achieved."
             ==
-        :-  ~[1 0 0 1 1 1]
+        :-  ~[1 1 1 0 0 1]
             :*
                 num=26
                 hc="䷙"
@@ -479,7 +479,7 @@
                 l5="Tears in floods, sighing and lamenting. Good fortune."
                 l6="The king used him to march forth and chastise. Then it's best to kill the leaders and take captive the followers. No blame."
             ==
-        :-  ~[0 1 1 1 0 0]
+        :-  ~[0 0 1 1 1 0]
             :*
                 num=31
                 hc="䷞"
@@ -494,7 +494,7 @@
                 l5="The influence shows itself in the back of the neck. No remorse."
                 l6="The influence shows itself in the jaws, cheeks, and tongue."
             ==
-        :-  ~[0 0 1 1 1 0]
+        :-  ~[0 1 1 1 0 0]
             :*
                 num=32
                 hc="䷟"
@@ -509,7 +509,7 @@
                 l5="Giving duration to one's character through perseverance. This is good fortune for a woman, misfortune for a man."
                 l6="Restlessness as an enduring condition brings misfortune."
             ==
-        :-  ~[1 1 1 1 0 0]
+        :-  ~[0 0 1 1 1 1]
             :*
                 num=33
                 hc="䷠"
@@ -524,7 +524,7 @@
                 l5="Friendly retreat. Perseverance brings good fortune."
                 l6="Cheerful retreat. Everything serves to further."
             ==
-        :-  ~[0 0 1 1 1 1]
+        :-  ~ [1 1 1 1 0 0]
             :*
                 num=34
                 hc="䷡"
@@ -539,7 +539,7 @@
                 l5="i"
                 l6="v"
             ==
-        :-  ~[1 0 1 0 0 0]
+        :-  ~[0 0 0 1 0 1]
             :*
                 num=35
                 hc="䷢"
@@ -554,7 +554,7 @@
                 l5="Remorse disappears. Take not gain and loss to heart. Undertakings bring good fortune. Everything serves to further."
                 l6="Making progress with the horns is permissible only for the purpose of punishing one's own city. To be conscious of danger brings good fortune. No blame. Perseverance brings humiliation."
             ==
-        :-  ~[0 0 0 1 0 1]
+        :-  ~[1 0 1 0 0 0]
             :*
                 num=36
                 hc="䷣"
@@ -569,7 +569,7 @@
                 l5="Darkening of the light as with Prince Chi. Perseverance furthers."
                 l6="Not light but darkness. First he climbed up to heaven, then plunged into the depths of the earth."
             ==
-        :-  ~[1 1 0 1 0 1]
+        :-  ~[1 0 1 0 1 1]
             :*
                 num=37
                 hc="䷤"
@@ -584,7 +584,7 @@
                 l5="As a king he approaches his family. Fear not. Good fortune."
                 l6="His work commands respect. In the end good fortune comes."
             ==
-        :-  ~[1 0 1 0 1 1]
+        :-  ~[1 1 0 1 0 1]
             :*
                 num=38
                 hc="䷥"
@@ -599,7 +599,7 @@
                 l5="Remorse disappears. The companion bites his way through the wrappings. If one goes to him, how could it be a mistake?."
                 l6="Isolated through opposition, one sees one's companion as a pig covered with dirt, as a wagon full of devils. First one draws a bow against him, then one lays the bow aside."
             ==
-        :-  ~[0 1 0 1 0 0]
+        :-  ~[0 0 1 0 1 0]
             :*
                 num=39
                 hc="䷦"
@@ -614,7 +614,7 @@
                 l5="In the midst of the greatest obstructions, friends come."
                 l6="Going leads to obstructions, coming leads to great good fortune. It furthers one to see the great man."
             ==
-        :-  ~[0 0 1 0 1 0]
+        :-  ~[0 1 0 1 0 0]
             :*
                 num=40
                 hc="䷧"
@@ -629,7 +629,7 @@
                 l5="If only the superior man can deliver himself, It brings good fortune. Thus he proves to inferior men that he's in earnest."
                 l6="The prince shoots at a hawk on a high wall. He kills it. Everything serves to further."
             ==
-        :-  ~[1 1 0 0 0 1]
+        :-  ~[1 0 0 0 1 1]
             :*
                 num=41
                 hc="䷨"
@@ -644,7 +644,7 @@
                 l5="Someone does indeed increase him. Ten pairs of tortoises can't oppose it. Supreme good fortune."
                 l6="If one is increased without depriving others, there's no blame. Perseverance brings good fortune. It furthers one to undertake something. One obtains servants but no longer has a separate home."
             ==
-        :-  ~[1 0 0 0 1 1]
+        :-  ~[1 1 0 0 0 1]
             :*
                 num=42
                 hc="䷩"
@@ -659,7 +659,7 @@
                 l5="If in truth you have a kind heart, ask not. Supreme good fortune. Truly, kindness will be recognized as your virtue."
                 l6="He brings increase to no one. Indeed, someone even strikes him. He doesn't keep his heart constantly steady. Misfortune."
             ==
-        :-  ~[0 1 1 0 0 0]
+        :-  ~[0 0 0 1 1 0]
             :*
                 num=43
                 hc="䷪"
@@ -674,7 +674,7 @@
                 l5="In dealing with weeds, firm resolution is necessary. Walking in the middle remains free of blame."
                 l6="No cry. In the end misfortune comes."
             ==
-        :-  ~[0 0 0 1 1 0]
+        :-  ~[0 1 1 0 0 0]
             :*
                 num=44
                 hc="䷫"
@@ -689,7 +689,7 @@
                 l5="A melon covered with willow leaves. Hidden lines. Then it drops down to one from heaven."
                 l6="He comes to meet with his horns. Humiliation. No blame."
             ==
-        :-  ~[0 1 1 1 0 1]
+        :-  ~[1 0 1 1 1 0]
             :*
                 num=45
                 hc="䷬"
@@ -704,7 +704,7 @@
                 l5="If in gathering together one has position, this brings no blame. If there are some who are not yet sincerely in the work, sublime and enduring perseverance is needed. Then remorse disappears."
                 l6="Lamenting and sighing, floods of tears. No blame."
             ==
-        :-  ~[1 0 1 1 1 0]
+        :-  ~[0 1 1 1 0 1]
             :*
                 num=46
                 hc="䷭"
@@ -719,7 +719,7 @@
                 l5="Perseverance brings good fortune. One pushes upward by steps."
                 l6="Pushing upward in darkness. It furthers one to be unremittingly persevering."
             ==
-        :-  ~[0 1 0 1 1 0]
+        :-  ~[0 1 1 0 1 0]
             :*
                 num=47
                 hc="䷮"
@@ -734,7 +734,7 @@
                 l5="His nose and feet are cut off. Oppression at the hands of the man with the purple knee bands. Joy comes softly. It furthers one to make offerings and libations."
                 l6="He's oppressed by creeping vines. He moves uncertainly and says, 'movement brings remorse.' If one feels remorse over this and makes a start, good fortune comes."
             ==
-        :-  ~[0 1 1 0 1 0]
+        :-  ~[0 1 0 1 1 0]
             :*
                 num=48
                 hc="䷯"
@@ -749,7 +749,7 @@
                 l5="In the well there's a clear, cold spring from which one can drink."
                 l6="One draws from the well without hindrance. It's dependable."
             ==
-        :-  ~[0 1 1 0 1 1]
+        :-  ~[1 1 0 1 1 0]
             :*
                 num=49
                 hc="䷰"
@@ -764,7 +764,7 @@
                 l5="The great man changes like a tiger. Even before he questions the oracle he's believed."
                 l6="The superior man changes like a panther. The inferior man molts in the face. Starting brings misfortune. To remain persevering brings good fortune."
             ==
-        :-  ~[1 1 0 1 1 0]
+        :-  ~[0 1 1 0 1 1]
             :*
                 num=50
                 hc="䷱"
@@ -779,7 +779,7 @@
                 l5="The ting has yellow handles, golden carrying rings. Perseverance furthers."
                 l6="The ting has rings of jade. Great good fortune. Nothing that wouldn't act to further."
             ==
-        :-  ~[1 0 0 1 0 0]
+        :-  ~[0 0 1 0 0 1]
             :*
                 num=51
                 hc="䷲"
@@ -794,7 +794,7 @@
                 l5="Shock goes hither and thither. Danger. However, nothing at all is lost. Yet there are things to be done."
                 l6="Shock brings ruin and terrified gazing around. Going ahead brings misfortune. If it has not yet touched one's own body but has reached one's neighbor first, there's no blame. One's comrades have something to talk about."
             ==
-        :-  ~[0 0 1 0 0 1]
+        :-  ~[1 0 0 1 0 0]
             :*
                 num=52
                 hc="䷳"
@@ -809,7 +809,7 @@
                 l5="Keeping his jaws still. The words have order. Remorse disappears."
                 l6="Noble-hearted keeping still. Good fortune."
             ==
-        :-  ~[0 0 1 0 1 1]
+        :-  ~[1 1 0 1 0 0]
             :*
                 num=53
                 hc="䷴"
@@ -824,7 +824,7 @@
                 l5="The wild goose gradually draws near the summit. For three years the woman has no child. In the end nothing can hinder her. Good fortune."
                 l6="The wild goose gradually draws near the clouds heights. Its feathers can be used for the sacred dance. Good fortune."
             ==
-        :-  ~[1 1 0 1 0 0]
+        :-  ~[0 0 1 0 1 1]
             :*
                 num=54
                 hc="䷵"
@@ -839,7 +839,7 @@
                 l5="The sovereign I gave his daughter in marriage. The embroidered garments of the princess were not as gorgeous as those of the serving maid. The moon that's nearly full brings good fortune."
                 l6="The woman holds the basket, but there are no fruits in it. The man stabs the sheep, but no blood flows. Nothing that acts to further."
             ==
-        :-  ~[1 1 0 0 1 0]
+        :-  ~[0 1 0 0 1 1]
             :*
                 num=55
                 hc="䷶"
@@ -854,7 +854,7 @@
                 l5="Lines are coming, blessing and fame draw near. Good fortune."
                 l6="His house is in a state of abundance. He screens off his family. He peers through the gate and no longer perceives anyone. For three years he sees nothing. Misfortune."
             ==
-        :-  ~[0 1 0 0 1 1]
+        :-  ~[1 1 0 0 1 0]
             :*
                 num=56
                 hc="䷷"
@@ -869,7 +869,7 @@
                 l5="He shoots a pheasant. It drops with the first arrow. In the end this brings both praise and office."
                 l6="The bird's nest burns up. The wanderer laughs at first, then must needs lament and weep. Through carelessness he loses his cow. Misfortune."
             ==
-        :-  ~[0 1 1 1 1 1]
+        :-  ~[1 1 1 1 1 0]
             :*
                 num=57
                 hc="䷸"
@@ -884,7 +884,7 @@
                 l5="He shoots a pheasant. It drops with the first arrow. In the end this brings both praise and office."
                 l6="The bird's nest burns up. The wanderer laughs at first, then must needs lament and weep. Through carelessness he loses his cow. Misfortune."
             ==
-        :-  ~[1 1 1 1 1 0]
+        :-  ~[0 1 1 1 1 1]
             :*
                 num=58
                 hc="䷹"
@@ -899,7 +899,7 @@
                 l5="Sincerity toward disintegrating influences is dangerous."
                 l6="Seductive joyousness."
             ==
-        :-  ~[0 0 1 1 0 1]
+        :-  ~[1 0 1 1 0 0]
             :*
                 num=59
                 hc="䷺"
@@ -914,7 +914,7 @@
                 l5="His loud cries are as dissolving as sweat. Dissolution! A king abides without blame."
                 l6="He dissolves his blood. Departing, keeping at a distance, going out, is without blame."
             ==
-        :-  ~[1 0 1 1 0 0]
+        :-  ~[0 0 1 1 0 1]
             :*
                 num=60
                 hc="䷻"
@@ -959,7 +959,7 @@
                 l5="Dense clouds, no rain from our western territory."
                 l6="He passes him by, not meeting him. The flying bird leaves him. Misfortune. This means bad luck and injury."
             ==
-        :-  ~[0 1 0 1 0 1]
+        :-  ~[1 0 1 0 1 0]
             :*
                 num=63
                 hc="䷾"
@@ -974,7 +974,7 @@
                 l5="The neighbor in the east who slaughters an ox does not attain as much real happiness as the neighbor in the west with his small offering."
                 l6="He gets his head in the water. Danger."
             ==
-        :-  ~[1 0 1 0 1 0]
+        :-  ~[0 1 0 1 0 1]
             :*
                 num=64
                 hc="䷿"
