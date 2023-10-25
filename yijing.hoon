@@ -5,7 +5,7 @@
 +$  trikey  [(list @ud) trigram]
 +$  trilist  (list trikey)
 
-+$  hexagram  [num=@ud nom=tape c=tape jud=tape img=tape l1=tape l2=tape l3=tape l4=tape l5=tape l6=tape]
++$  hexagram  [num=@ud hc=tape nom=tape c=tape jud=tape img=tape l1=tape l2=tape l3=tape l4=tape l5=tape l6=tape]
 +$  hexkey  [(list @ud) hexagram]
 +$  hexlist  (list hexkey)
 
@@ -32,6 +32,7 @@
         :-  ~[1 1 1 1 1 1]  
             :*
                 num=1
+                hc="䷀"
                 nom="Initiating"
                 c="乾"
                 jud="The creative works sublime success, furthering through perseverance."
@@ -46,6 +47,7 @@
         :-  ~[0 0 0 0 0 0]
             :*
                 num=2
+                hc="䷁"
                 nom="Responding"
                 c="坤"
                 jud="The receptive brings about sublime success, furthering through the perseverance of a mare. Quiet perseverance brings good fortune."
@@ -60,6 +62,7 @@
         :-  ~[0 1 0 0 0 1]
             :*
                 num=3
+                hc="䷂"
                 nom="Beginning"
                 c="屯"
                 jud="Difficulty at the beginning works supreme success, Furthering through perseverance. Nothing should be undertaken. It furthers one to appoint helpers."
@@ -74,6 +77,7 @@
         :-  ~[1 0 0 0 1 0]
             :*
                 num=4
+                hc="䷃"
                 nom="Childhood"
                 c="蒙"
                 jud="Youthful folly has success. It's not I who seek the young fool; the young fool seeks me. At the first oracle I inform him. If he asks two or three times, it's importunity. If he importunes, I give him no information. Perseverance furthers."
@@ -88,6 +92,7 @@
         :-  ~[0 1 0 1 1 1]
             :*
                 num=5
+                hc="䷄"
                 nom="Needing"
                 c="需"
                 jud="Waiting. If you're sincere, you have light and success. Perseverance brings good fortune. It furthers one to cross the great water."
@@ -102,6 +107,7 @@
         :-  ~[1 1 1 0 1 0]
             :*
                 num=6
+                hc="䷅"
                 nom="Contention"
                 c="訟"
                 jud="Conflict. You are sincere and are being obstructed. A cautious halt halfway brings good fortune. Going through to the end brings misfortune. It furthers one to see the great man. It doesn't further one to cross the great water."
@@ -116,6 +122,7 @@
         :-  ~[0 0 0 0 1 0]
             :*
                 num=7
+                hc="䷆"
                 nom="Multitude"
                 c="師"
                 jud="The army. The army needs perseverance and a strong man. Good fortune without blame."
@@ -130,6 +137,7 @@
         :-  ~[0 1 0 0 0 0]
             :*
                 num=8
+                hc="䷇"
                 nom="Union"
                 c="比"
                 jud="Holding together brings good fortune. Inquire of the oracle once again whether you possess sublimity, constancy, and perseverance; No blame. Those who are uncertain gradually join. Whoever comes too late meets with misfortune."
@@ -144,6 +152,7 @@
         :-  ~[1 1 0 1 1 1]
             :*
                 num=9
+                hc="䷈"
                 nom="Little Accumulation"
                 c="小畜"
                 jud="The taming power of the small has success. Dense clouds, no rain from our western region."
@@ -158,6 +167,7 @@
         :-  ~[1 1 1 0 1 1]
             :*
                 num=10
+                hc="䷉"
                 nom="Fulfillment"
                 c="履"
                 jud="Treading on the tail of the tiger. It doesn't bite the man. Success."
@@ -172,6 +182,7 @@
         :-  ~[0 0 0 1 1 1]
             :*
                 num=11
+                hc="䷊"
                 nom="Advance"
                 c="泰"
                 jud="Peace. The small departs, The great approaches. Good fortune. Success."
@@ -186,6 +197,7 @@
         :-  ~[1 1 1 0 0 0]
             :*
                 num=12
+                hc="䷋"
                 nom="Hindrance"
                 c="否"
                 jud="Standstill. Evil people don't further the perseverance of the superior man. The great departs; the small approaches."
@@ -200,6 +212,7 @@
         :-  ~[1 1 1 1 0 1]
             :*
                 num=13
+                hc="䷌"
                 nom="Seeking Harmony"
                 c="同人"
                 jud="Fellowship with men in the open. Success. It furthers one to cross the great water. The perseverance of the superior man furthers."
@@ -214,6 +227,7 @@
         :-  ~[1 0 1 1 1 1]
             :*
                 num=14
+                hc="䷍"
                 nom="Great Harvest"
                 c="大有"
                 jud="Possession in great measure. Supreme success."
@@ -228,6 +242,7 @@
         :-  ~[0 0 0 1 0 0]
             :*
                 num=15
+                hc="䷎"
                 nom="Humbleness"
                 c="謙"
                 jud="Modesty creates success. The superior man carries things through."
@@ -242,6 +257,7 @@
         :-  ~[0 0 1 0 0 0]
             :*
                 num=16
+                hc="䷏"
                 nom="Delight"
                 c="豫"
                 jud="Enthusiasm. It furthers one to install helpers and to set armies marching."
@@ -256,6 +272,7 @@
         :-  ~[0 1 1 0 0 1]
             :*
                 num=17
+                hc="䷐"
                 nom="Following"
                 c="隨"
                 jud="Following has supreme success. Perseverance furthers. No blame."
@@ -270,6 +287,7 @@
         :-  ~[1 0 0 1 1 0]
             :*
                 num=18
+                hc="䷑"
                 nom="Remedying"
                 c="蠱"
                 jud="Work on what has been spoiled has supreme success. It furthers one to cross the great water. Before the starting point, three days. After the starting point, three days."
@@ -284,6 +302,7 @@
         :-  ~[0 0 0 0 1 1]
             :*
                 num=19
+                hc="䷒"
                 nom="Approaching"
                 c="臨"
                 jud="Approach has supreme success. Perseverance furthers. When the eighth month comes, there will be misfortune."
@@ -298,6 +317,7 @@
         :-  ~[1 1 0 0 0 0]
             :*
                 num=20
+                hc="䷓"
                 nom="Watching"
                 c="觀"
                 jud="Contemplation. The ablution has been made, but not yet the offering. Full of trust they look up to him."
@@ -312,6 +332,7 @@
         :-  ~[1 0 1 0 0 1]
             :*
                 num=21
+                hc="䷔"
                 nom="Eradicating"
                 c="噬嗑"
                 jud="Biting Through has success. It's favorable to let justice be administered."
@@ -326,6 +347,7 @@
         :-  ~[1 0 0 1 0 1]
             :*
                 num=22
+                hc="䷕"
                 nom="Adorning"
                 c="賁"
                 jud="Grace has success. In small matters it's favorable to undertake something."
@@ -340,6 +362,7 @@
         :-  ~[1 0 0 0 0 0]
             :*
                 num=23
+                hc="䷖"
                 nom="Falling Away"
                 c="剝"
                 jud="Splitting apart. It doesn't further one to go anywhere."
@@ -354,6 +377,7 @@
         :-  ~[0 0 0 0 0 1]
             :*
                 num=24
+                hc="䷗"
                 nom="Turning Back"
                 c="復"
                 jud="Return. Success. Going out and coming in without error. Friends come without blame. To and fro goes the way. On the seventh day comes return. It furthers one to have somewhere to go."
@@ -368,6 +392,7 @@
         :-  ~[1 1 1 0 0 1]
             :*
                 num=25
+                hc="䷘"
                 nom="Without Falsehood"
                 c="無妄"
                 jud="Innocence. Supreme success. Perseverance furthers. If someone isn't as he should be, He has misfortune, And it doesn't further him To undertake anything."
@@ -382,6 +407,7 @@
         :-  ~[1 0 0 1 1 1]
             :*
                 num=26
+                hc="䷙"
                 nom="Great Accumulation"
                 c="大畜"
                 jud="The taming power of the great. Perseverance furthers. Not eating at home brings good fortune. It furthers one to cross the great water."
@@ -396,6 +422,7 @@
         :-  ~[1 0 0 0 0 1]
             :*
                 num=27
+                hc="䷚"
                 nom="Nourishing"
                 c="頤"
                 jud="The corners of the mouth. Perseverance brings good fortune. Pay heed to the providing of nourishment and to what a man seeks to fill his own mouth with."
@@ -410,6 +437,7 @@
         :-  ~[0 1 1 1 1 0]
             :*
                 num=28
+                hc="䷛"
                 nom="Great Exceeding"
                 c="大過"
                 jud="Preponderance of the Great. The ridge-pole sags to the breaking point. It furthers one to have somewhere to go. Success."
@@ -424,6 +452,7 @@
         :-  ~[0 1 0 0 1 0]
             :*
                 num=29
+                hc="䷜"
                 nom="Darkness"
                 c="坎"
                 jud="The Abysmal repeated. If you're sincere, you have success in your heart, and whatever you do succeeds."
@@ -438,6 +467,7 @@
         :-  ~[1 0 1 1 0 1]
             :*
                 num=30
+                hc="䷝"
                 nom="Brightness"
                 c="離"
                 jud="The Clinging. Perseverance furthers. It brings success. Care of the cow brings good fortune."
@@ -452,6 +482,7 @@
         :-  ~[0 1 1 1 0 0]
             :*
                 num=31
+                hc="䷞"
                 nom="Mutual Influence"
                 c="咸"
                 jud="Influence. Success. Perseverance furthers. To take a maiden to wife brings good fortune."
@@ -466,6 +497,7 @@
         :-  ~[0 0 1 1 1 0]
             :*
                 num=32
+                hc="䷟"
                 nom="Long Lasting"
                 c="恆"
                 jud="Duration. Success. No blame. Perseverance furthers. It furthers one to have somewhere to go."
@@ -480,6 +512,7 @@
         :-  ~[1 1 1 1 0 0]
             :*
                 num=33
+                hc="䷠"
                 nom="Retreat"
                 c="遯"
                 jud="Retreat. Success. In what's small, perseverance furthers."
@@ -494,6 +527,7 @@
         :-  ~[0 0 1 1 1 1]
             :*
                 num=34
+                hc="䷡"
                 nom="Great Strength"
                 c="大壯"
                 jud="The power of the great. Perseverance furthers."
@@ -508,6 +542,7 @@
         :-  ~[1 0 1 0 0 0]
             :*
                 num=35
+                hc="䷢"
                 nom="Proceeding Forward"
                 c="晉"
                 jud="Progress. The powerful prince is honored with horses in large numbers. In a single day he's granted audience three times."
@@ -522,6 +557,7 @@
         :-  ~[0 0 0 1 0 1]
             :*
                 num=36
+                hc="䷣"
                 nom="Brilliance Injured"
                 c="明夷"
                 jud="Darkening of the light. In adversity it furthers one to be persevering."
@@ -536,6 +572,7 @@
         :-  ~[1 1 0 1 0 1]
             :*
                 num=37
+                hc="䷤"
                 nom="Household"
                 c="家人"
                 jud="The Family. The perseverance of the woman furthers."
@@ -550,6 +587,7 @@
         :-  ~[1 0 1 0 1 1]
             :*
                 num=38
+                hc="䷥"
                 nom="Diversity"
                 c="睽"
                 jud="Opposition. In small matters, good fortune."
@@ -564,6 +602,7 @@
         :-  ~[0 1 0 1 0 0]
             :*
                 num=39
+                hc="䷦"
                 nom="Hardship"
                 c="蹇"
                 jud="Obstruction. The south-west furthers. The north-east doesn't further. It furthers one to see the great man. Perseverance brings good fortune."
@@ -578,6 +617,7 @@
         :-  ~[0 0 1 0 1 0]
             :*
                 num=40
+                hc="䷧"
                 nom="Relief"
                 c="解"
                 jud="Deliverance. The south-west furthers. If there's no longer anything where one has to go, return brings good fortune. If there's still something where one has to go, hastening brings good fortune."
@@ -592,6 +632,7 @@
         :-  ~[1 1 0 0 0 1]
             :*
                 num=41
+                hc="䷨"
                 nom="Decrease"
                 c="損"
                 jud="Decrease combined with sincerity brings about supreme good fortune without blame. One may be persevering in this. It furthers one to undertake something. How is this to be carried out? One may use two small bowls for the sacrifice."
@@ -606,6 +647,7 @@
         :-  ~[1 0 0 0 1 1]
             :*
                 num=42
+                hc="䷩"
                 nom="Increase"
                 c="益"
                 jud="Increase. It furthers one to undertake something. It furthers one to cross the great water."
@@ -620,6 +662,7 @@
         :-  ~[0 1 1 0 0 0]
             :*
                 num=43
+                hc="䷪"
                 nom="Breakthrough"
                 c="夬"
                 jud="Break-through. One must resolutely make the matter known at the court of the king. It must be announced truthfully. Danger. It's necessary to notify one's own city. It doesn't further to resort to arms. It furthers one to undertake something."
@@ -634,6 +677,7 @@
         :-  ~[0 0 0 1 1 0]
             :*
                 num=44
+                hc="䷫"
                 nom="Encountering"
                 c="姤"
                 jud="Coming to meet. The maiden is powerful. One shouldn't marry such a maiden."
@@ -648,6 +692,7 @@
         :-  ~[0 1 1 1 0 1]
             :*
                 num=45
+                hc="䷬"
                 nom="Gathering Together"
                 c="萃"
                 jud="Gathering together. Success. The king approaches his temple. It furthers one to see the great man. This brings success. Perseverance furthers. To bring great offerings creates good fortune. It furthers one to undertake something."
@@ -662,6 +707,7 @@
         :-  ~[1 0 1 1 1 0]
             :*
                 num=46
+                hc="䷭"
                 nom="Rising"
                 c="升"
                 jud="Pushing upward has supreme success. One must see the great man. Fear not. Departure toward the south brings good fortune."
@@ -676,6 +722,7 @@
         :-  ~[0 1 0 1 1 0]
             :*
                 num=47
+                hc="䷮"
                 nom="Exhaustion"
                 c="困"
                 jud="Oppression. Success. Perseverance. The great man brings about good fortune. No blame. When one has something to say, it's not believed."
@@ -690,6 +737,7 @@
         :-  ~[0 1 1 0 1 0]
             :*
                 num=48
+                hc="䷯"
                 nom="The Well"
                 c="井"
                 jud="The Well. The town may be changed, but the well can't be changed. It neither decreases nor increases. They come and go and draw from the well. If one gets down almost to the water and the rope doesn't go all the way, or the jug breaks, it brings misfortune."
@@ -704,6 +752,7 @@
         :-  ~[0 1 1 0 1 1]
             :*
                 num=49
+                hc="䷰"
                 nom="Revolution"
                 c="革"
                 jud="Revolution. On your own day you are believed. Supreme success, furthering through perseverance. Remorse disappears."
@@ -718,6 +767,7 @@
         :-  ~[1 1 0 1 1 0]
             :*
                 num=50
+                hc="䷱"
                 nom="The Cauldron"
                 c="鼎"
                 jud="The Cauldrom. Supreme good fortune. Success."
@@ -732,6 +782,7 @@
         :-  ~[1 0 0 1 0 0]
             :*
                 num=51
+                hc="䷲"
                 nom="Thunder"
                 c="震"
                 jud="Shock brings success. Shock comes - oh, oh! Laughing words - ha, ha! The shock terrifies for a hundred miles, and he doesn't let fall the sacrificial spoon and chalice."
@@ -746,6 +797,7 @@
         :-  ~[0 0 1 0 0 1]
             :*
                 num=52
+                hc="䷳"
                 nom="Mountain"
                 c="艮"
                 jud="Keeping Still. Keeping his back still so that he no longer feels his body. He goes into his courtyard and doesn't see his people. No blame."
@@ -760,6 +812,7 @@
         :-  ~[0 0 1 0 1 1]
             :*
                 num=53
+                hc="䷴"
                 nom="Gradual Progress"
                 c="漸"
                 jud="Development. The maiden is given in marriage. Good fortune. Perseverance furthers."
@@ -774,6 +827,7 @@
         :-  ~[1 1 0 1 0 0]
             :*
                 num=54
+                hc="䷵"
                 nom="The Maiden"
                 c="歸妹"
                 jud="The Marrying Maiden. Undertakings bring misfortune. Nothing that would further."
@@ -788,6 +842,7 @@
         :-  ~[1 1 0 0 1 0]
             :*
                 num=55
+                hc="䷶"
                 nom="Abundance"
                 c="豐"
                 jud="Abundance has success. The king attains abundance. Be not sad. Be like the sun at midday."
@@ -802,6 +857,7 @@
         :-  ~[0 1 0 0 1 1]
             :*
                 num=56
+                hc="䷷"
                 nom="The Wanderer"
                 c="旅"
                 jud="The Wanderer. Success through smallness."
@@ -816,6 +872,7 @@
         :-  ~[0 1 1 1 1 1]
             :*
                 num=57
+                hc="䷸"
                 nom="Wind"
                 c="巽"
                 jud="The Wanderer. Success through smallness. Perseverance brings good fortune to the wanderer."
@@ -830,6 +887,7 @@
         :-  ~[1 1 1 1 1 0]
             :*
                 num=58
+                hc="䷹"
                 nom="Lake"
                 c="兌"
                 jud="The Joyous. Success. Perseverance is favorable."
@@ -844,6 +902,7 @@
         :-  ~[0 0 1 1 0 1]
             :*
                 num=59
+                hc="䷺"
                 nom="Disintegration"
                 c="渙"
                 jud="Dispersion. Success. The king approaches his temple. It furthers one to cross the great water. Perseverance furthers."
@@ -858,6 +917,7 @@
         :-  ~[1 0 1 1 0 0]
             :*
                 num=60
+                hc="䷻"
                 nom="Limitation"
                 c="節"
                 jud="Limitation. Success. Galling limitation must not be persevered in."
@@ -872,6 +932,7 @@
         :-  ~[1 1 0 0 1 1]
             :*
                 num=61
+                hc="䷼"
                 nom="Sincerity"
                 c="中孚"
                 jud="Inner Truth. Pigs and fishes. Good fortune. It furthers one to cross the great water. Perseverance furthers."
@@ -886,6 +947,7 @@
         :-  ~[0 0 1 1 0 0]
             :*
                 num=62
+                hc="䷽"
                 nom="Small Exceeding"
                 c="小過"
                 jud="Preponderance of the Small. Success. Perseverance furthers. Small things may be done; great things shouldn't be done. The flying bird brings the message: It's not well to strive upward, it's well to remain below. Great good fortune."
@@ -900,6 +962,7 @@
         :-  ~[0 1 0 1 0 1]
             :*
                 num=63
+                hc="䷾"
                 nom="Already Fulfilled"
                 c="既濟"
                 jud="After Completion. Success in small matters. Perseverance furthers. At the beginning good fortune. At the end disorder."
@@ -914,6 +977,7 @@
         :-  ~[1 0 1 0 1 0]
             :*
                 num=64
+                hc="䷿"
                 nom="Not Yet Fulfilled"
                 c="未濟"
                 jud="Before Completion. Success. But if the little fox, after nearly completing the crossing, gets his tail in the water, there's nothing that would further."
