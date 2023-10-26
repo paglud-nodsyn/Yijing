@@ -1,9 +1,7 @@
-
 |%
 ++  linelist
     |=  [eny=@uvj count=@ud]
     ^-  (list @ud)
-    :: temporary entropy solution
     =+  rng=~(. og eny)
         =^  r1  rng  (rads:rng 2)
         =^  r2  rng  (rads:rng 2)
@@ -13,11 +11,9 @@
     |=  line=(list @ud)
     =/  a2  |=(a=@ud (add a 2))
     (turn line a2)
-
 ++  linesum
     |=  x=(list @ud)
     (roll x add)
-
 ++  cast6
     |=  eny=@uvj  
     ^-  (list @ud) 
