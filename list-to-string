@@ -1,0 +1,11 @@
+|=  l=(list @ud)
+^-  tape
+%-  snip
+=/  length  (lent l)
+=/  string  "x"
+|-
+?:  =(length 1)  string
+%=  $
+length  (dec length)
+string  (weld (scow %ud (snag (dec length) l))) string)
+==
